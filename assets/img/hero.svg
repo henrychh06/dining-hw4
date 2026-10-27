@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" role="img" aria-labelledby="t d">
+  <title id="t">A round dinner table seen from above</title>
+  <desc id="d">Two place settings face each other across a round table with a small vase of flowers in the middle. Each setting has a plate, forks on the left, a knife and spoon on the right, a bread plate and two glasses.</desc>
+  <defs>
+    <g id="setting">
+      <rect x="-118" y="-40" width="24" height="80" rx="5" fill="#f4e4e8" stroke="#7b1e3a" stroke-width="1.5"/>
+      <rect x="-89" y="-44" width="10" height="30" rx="4" fill="#9aa3b2"/><rect x="-86.5" y="-16" width="5" height="60" rx="2.5" fill="#9aa3b2"/>
+      <rect x="-73" y="-44" width="10" height="30" rx="4" fill="#7b8596"/><rect x="-70.5" y="-16" width="5" height="60" rx="2.5" fill="#7b8596"/>
+      <circle r="46" fill="#fffdf8" stroke="#ddd2ba" stroke-width="2"/>
+      <circle r="30" fill="none" stroke="#ddd2ba" stroke-width="1.5"/>
+      <path d="M58 -44 q10 4 10 34 v54 h-6 v-54 q0 -22 -4 -34z" fill="#7b8596"/>
+      <ellipse cx="82" cy="-30" rx="7" ry="11" fill="#9aa3b2"/><rect x="79" y="-20" width="6" height="64" rx="3" fill="#9aa3b2"/>
+      <rect x="-34" y="-68" width="68" height="5" rx="2.5" fill="#9aa3b2"/><rect x="-34" y="-58" width="68" height="5" rx="2.5" fill="#7b8596"/>
+      <circle cx="-62" cy="-92" r="17" fill="#fffdf8" stroke="#ddd2ba" stroke-width="2"/>
+      <rect x="-76" y="-93" width="30" height="3" rx="1.5" fill="#7b8596" transform="rotate(-20 -62 -92)"/>
+      <circle cx="58" cy="-92" r="15" fill="#f1e8d5" stroke="#9aa3b2" stroke-width="2"/>
+      <circle cx="88" cy="-76" r="12" fill="#f4e4e8" stroke="#7b1e3a" stroke-width="2"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="240" r="226" fill="#f1e8d5"/>
+  <circle cx="260" cy="240" r="226" fill="none" stroke="#ddd2ba" stroke-width="3"/>
+  <circle cx="260" cy="240" r="200" fill="none" stroke="#ddd2ba" stroke-width="1.5" stroke-dasharray="3 7"/>
+  <g transform="translate(262 352)"><use href="#setting"/></g>
+  <g transform="translate(258 128) rotate(180)"><use href="#setting"/></g>
+  <circle cx="260" cy="240" r="26" fill="#7b1e3a"/>
+  <circle cx="260" cy="240" r="15" fill="#f4e4e8"/>
+  <g fill="#2b6a4c"><ellipse cx="236" cy="222" rx="13" ry="6" transform="rotate(-30 236 222)"/><ellipse cx="284" cy="258" rx="13" ry="6" transform="rotate(-30 284 258)"/></g>
+  <circle cx="260" cy="240" r="6" fill="#7b1e3a"/>
+</svg>

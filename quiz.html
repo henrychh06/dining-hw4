@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-check quiz – Table Ready</title>
+  <meta name="description" content="A ten-question quiz with instant feedback to check what you learned about business dining etiquette.">
+  <meta name="theme-color" content="#faf5ea">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Public+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Table <span>Ready</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav">
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="before.html">Before the meal</a></li>
+          <li><a href="at-the-table.html">At the table</a></li>
+          <li><a href="conversation.html">Conversation</a></li>
+          <li><a href="quiz.html" aria-current="page">Quiz</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="survey.html">Survey</a></li>
+          <li><a href="references.html">Sources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <header class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">Self-check</p>
+        <h1>How ready are you for the table?</h1>
+        <p class="lede">Ten quick questions. You will see the answer and a short explanation right after each one. Nothing is saved or sent anywhere.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap">
+        <form id="quiz" class="quiz" onsubmit="return false">
+          <div class="quiz-status">
+            <span id="quiz-status">0 of 10 answered · 0 correct</span>
+            <div class="progress" aria-hidden="true"><span id="quiz-bar"></span></div>
+            <button type="button" class="btn btn--ghost btn--sm" data-quiz-reset>Start over</button>
+          </div>
+          <div id="quiz-questions" class="quiz">
+            <noscript><p class="aside-note">The quiz needs JavaScript. Without it, try the <a href="at-the-table.html">table guide</a> instead.</p></noscript>
+          </div>
+          <div id="quiz-result" class="result" hidden tabindex="-1" role="status">
+            <h2 id="result-title">Your score</h2>
+            <p id="result-text"></p>
+            <div class="btn-row">
+              <button type="button" class="btn" data-quiz-reset>Try again</button>
+              <a class="btn btn--ghost" href="survey.html">Take the survey</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="brand">Table Ready</p>
+        <p>A beginner's guide to business dining etiquette for UA students.</p>
+        <p class="fine">Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+      </div>
+      <div>
+        <h2>The guide</h2>
+        <ul>
+          <li><a href="before.html">Before the meal</a></li>
+          <li><a href="at-the-table.html">At the table</a></li>
+          <li><a href="conversation.html">Conversation &amp; follow-up</a></li>
+          <li><a href="quiz.html">Self-check quiz</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Elsewhere</h2>
+        <ul>
+          <li><a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          <li><a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+          <li><a href="survey.html">Survey</a> &middot; <a href="references.html">Sources</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/nav.js" defer></script>
+  <script src="assets/js/quiz.js" defer></script>
+</body>
+</html>
