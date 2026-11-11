@@ -4,71 +4,84 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>News and tips – Table Ready</title>
-  <meta name="description" content="Announcements and short etiquette tips from the Table Ready business dining guide.">
-  <meta name="theme-color" content="#faf5ea">
+  <meta name="description" content="Announcements and quick tips about business dining etiquette from Table Ready.">
+  <meta name="theme-color" content="#fff4df">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>(function(d){d.classList.add("js");try{if(!sessionStorage.getItem("tr-loaded")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("show-loader")}catch(e){}})(document.documentElement);</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Public+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="loader" aria-hidden="true"><span class="brand">Table <span>Ready</span></span></div>
   <header class="site-header">
     <div class="wrap bar">
       <a class="brand" href="index.html">Table <span>Ready</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav">
-        <span class="nav-toggle-label">Menu</span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Main">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html">Conversation</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="news.html" aria-current="page">News</a></li>
-          <li><a href="survey.html">Survey</a></li>
-          <li><a href="references.html">Sources</a></li>
-        </ul>
-      </nav>
+      <div class="header-cta">
+        <a class="btn-outline btn--sm" href="before.html">Start the guide</a>
+        <a class="btn-outline btn--sm" href="quiz.html">Take the quiz</a>
+      </div>
+      <div class="header-right">
+        <a class="btn btn--sm" href="survey.html">Survey</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="bars" aria-hidden="true"></span><span class="nav-toggle-label">Menu</span>
+        </button>
+      </div>
     </div>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+          <li><a href="index.html"><span>Home</span><small aria-hidden="true">Start here</small></a></li>
+          <li><a href="before.html"><span>Before the meal</span><small aria-hidden="true">Prep &amp; arrival</small></a></li>
+          <li><a href="at-the-table.html"><span>At the table</span><small aria-hidden="true">Place settings</small></a></li>
+          <li><a href="conversation.html"><span>Conversation</span><small aria-hidden="true">Small talk &amp; the bill</small></a></li>
+          <li><a href="quiz.html"><span>Quiz</span><small aria-hidden="true">Test yourself</small></a></li>
+          <li><a href="news.html" aria-current="page"><span>News</span><small aria-hidden="true">Latest tips</small></a></li>
+          <li><a href="survey.html"><span>Survey</span><small aria-hidden="true">Tell us</small></a></li>
+          <li><a href="references.html"><span>Sources</span><small aria-hidden="true">What we read</small></a></li>
+      </ul>
+    </nav>
   </header>
 
   <main id="main" tabindex="-1">
 
-    <header class="page-head">
+    <header class="poster-head poster-head--red">
       <div class="wrap">
-        <p class="eyebrow">Announcements</p>
-        <h1>News and tips</h1>
-        <p class="lede">Updates to this site and short tips you can use at your next meal.</p>
+        <div>
+          <p class="eyebrow">Announcements</p>
+          <h1>News and tips</h1>
+          <p class="lede">Updates to this site and short tips you can use at your next meal.</p>
+          <p class="deco" aria-hidden="true">The latest from Table Ready.</p>
+        </div>
+        <figure class="ph reveal-clip" data-file="head-news.jpg" data-size="1600×1000 px"><img src="assets/img/photos/head-news.jpg" alt="Students talking at a networking event." width="1600" height="1000" fetchpriority="high" decoding="async"></figure>
       </div>
     </header>
 
     <section class="section">
       <div class="wrap">
         <div class="posts">
-          <article class="post">
+          <article class="post reveal" style="--i:0">
             <time datetime="2026-10-27">October 27, 2026</time><span class="label">Site update</span>
             <h2>Welcome to Table Ready</h2>
             <p>This guide is for students with little or no experience at business meals. Start with <a href="before.html">Before the meal</a>, or jump to the part you need most.</p>
           </article>
-          <article class="post">
+          <article class="post reveal" style="--i:1">
             <time datetime="2026-10-27">October 27, 2026</time><span class="label">New feature</span>
             <h2>The self-check quiz is live</h2>
             <p>Answer ten questions and get instant feedback with a short explanation for each. It takes about three minutes. <a href="quiz.html">Try the quiz</a>.</p>
           </article>
-          <article class="post">
+          <article class="post reveal" style="--i:0">
             <time datetime="2026-10-27">October 27, 2026</time><span class="label">Your turn</span>
             <h2>Tell us what you learned</h2>
             <p>After you have read the guide, answer the questions on the <a href="survey.html">survey page</a>. They help show which parts of the site worked and which need more explanation.</p>
           </article>
-          <article class="post">
+          <article class="post reveal" style="--i:1">
             <time datetime="2026-10-27">October 27, 2026</time><span class="label">Tip</span>
             <h2>Practice the table once at home</h2>
             <p>Set a place at your kitchen table using the <a href="at-the-table.html">diagram</a>, with BMW in mind. Doing it once with real forks makes the pattern stick far better than reading about it.</p>
           </article>
-          <article class="post">
+          <article class="post reveal" style="--i:0">
             <time datetime="2026-10-27">October 27, 2026</time><span class="label">Heads-up</span>
             <h2>Look for etiquette dinners on campus</h2>
             <p>Many universities run career-center etiquette dinners where students practice with real courses. For example, Texas A&amp;M University–Corpus Christi hosts a series, described on <a href="https://tamucc.edu/news/2024/03/tamu-cc-serves-up-etiquette-sessions-to-perfect-students-business-dining-skills.php" target="_blank" rel="noopener noreferrer" class="ext">its news site<span class="visually-hidden"> (opens in a new tab)</span></a>. Ask <a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a> whether something similar is offered near you.</p>
@@ -80,32 +93,36 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand">Table Ready</p>
-        <p>A beginner's guide to business dining etiquette for UA students.</p>
-        <p class="fine">Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span></div></div>
+    <section class="sunburst footer-sun" aria-label="About this site">
+      <div class="wrap">
+        <p class="mega reveal" aria-hidden="true">Table<br>Ready</p>
+        <div class="btn-row">
+          <a class="btn-outline" href="before.html">Start the guide</a>
+          <a class="btn-outline" href="quiz.html">Take the quiz</a>
+        </div>
+        <div class="footer-info">
+          <p><strong>Table Ready:</strong> a beginner's guide to business dining etiquette for UA students.</p>
+          <p><strong>Elsewhere:</strong> <a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+          <p>Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+        </div>
       </div>
-      <div>
-        <h2>The guide</h2>
-        <ul>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html">Conversation &amp; follow-up</a></li>
-          <li><a href="quiz.html">Self-check quiz</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Elsewhere</h2>
-        <ul>
-          <li><a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="survey.html">Survey</a> &middot; <a href="references.html">Sources</a></li>
-        </ul>
-      </div>
-    </div>
+    </section>
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="before.html">Before the meal</a></li>
+        <li><a href="at-the-table.html">At the table</a></li>
+        <li><a href="conversation.html">Conversation</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="references.html">Sources</a></li>
+      </ul>
+    </nav>
+    <div class="footer-base"><p>Table Ready · HW4 · Plain HTML, CSS and JavaScript</p></div>
   </footer>
   <script src="assets/js/nav.js" defer></script>
-
+  <script src="assets/js/fx.js" defer></script>
 </body>
 </html>

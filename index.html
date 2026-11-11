@@ -5,161 +5,284 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Table Ready – Business dining etiquette for students</title>
   <meta name="description" content="A beginner-friendly guide to business dining etiquette for UA students: what to do before, during and after a meal.">
-  <meta name="theme-color" content="#faf5ea">
+  <meta name="theme-color" content="#fff4df">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>(function(d){d.classList.add("js");try{if(!sessionStorage.getItem("tr-loaded")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("show-loader")}catch(e){}})(document.documentElement);</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Public+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="loader" aria-hidden="true"><span class="brand">Table <span>Ready</span></span></div>
   <header class="site-header">
     <div class="wrap bar">
       <a class="brand" href="index.html">Table <span>Ready</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav">
-        <span class="nav-toggle-label">Menu</span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Main">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html">Conversation</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="survey.html">Survey</a></li>
-          <li><a href="references.html">Sources</a></li>
-        </ul>
-      </nav>
+      <div class="header-cta">
+        <a class="btn-outline btn--sm" href="before.html">Start the guide</a>
+        <a class="btn-outline btn--sm" href="quiz.html">Take the quiz</a>
+      </div>
+      <div class="header-right">
+        <a class="btn btn--sm" href="survey.html">Survey</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="bars" aria-hidden="true"></span><span class="nav-toggle-label">Menu</span>
+        </button>
+      </div>
     </div>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+          <li><a href="index.html" aria-current="page"><span>Home</span><small aria-hidden="true">Start here</small></a></li>
+          <li><a href="before.html"><span>Before the meal</span><small aria-hidden="true">Prep &amp; arrival</small></a></li>
+          <li><a href="at-the-table.html"><span>At the table</span><small aria-hidden="true">Place settings</small></a></li>
+          <li><a href="conversation.html"><span>Conversation</span><small aria-hidden="true">Small talk &amp; the bill</small></a></li>
+          <li><a href="quiz.html"><span>Quiz</span><small aria-hidden="true">Test yourself</small></a></li>
+          <li><a href="news.html"><span>News</span><small aria-hidden="true">Latest tips</small></a></li>
+          <li><a href="survey.html"><span>Survey</span><small aria-hidden="true">Tell us</small></a></li>
+          <li><a href="references.html"><span>Sources</span><small aria-hidden="true">What we read</small></a></li>
+      </ul>
+    </nav>
   </header>
 
   <main id="main" tabindex="-1">
 
     <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <p class="eyebrow">A beginner's guide for UA students</p>
-          <h1>Eat well, talk well, and leave a great impression.</h1>
-          <p class="lede">Interviews, networking events, and employer dinners often happen over a meal. This guide shows you what to do before, during, and after, so you can focus on the conversation instead of the forks.</p>
-          <div class="btn-row">
-            <a class="btn" href="before.html">Start with the basics</a>
-            <a class="btn btn--ghost" href="quiz.html">Test yourself</a>
-          </div>
+      <div class="wrap">
+        <div class="hero-photos">
+          <figure class="ph " data-file="hero-1.jpg" data-size="1200×900 px"><img src="assets/img/photos/hero-1.jpg" alt="Two people in business clothes shaking hands across a restaurant table." width="1200" height="900" fetchpriority="high" decoding="async"></figure>
+          <figure class="ph " data-file="hero-2.jpg" data-size="1200×900 px"><img src="assets/img/photos/hero-2.jpg" alt="Close-up of an elegant table set with glasses, cutlery and a white plate." width="1200" height="900" fetchpriority="high" decoding="async"></figure>
         </div>
-        <img class="hero-art" src="assets/img/hero.svg" width="520" height="480"
-             alt="A round dinner table seen from above, with two place settings facing each other and flowers in the middle.">
+        <div class="fit-box hero-title"><h1 class="mega mega--3d fit">Table Ready</h1></div>
+        <div class="hero-row">
+          <p class="tagline">Business dining etiquette for UA students</p>
+          <p class="intro">Interviews, networking events and employer dinners often happen over a meal. This guide shows you what to do before, during and after, so you can focus on the conversation instead of the forks.</p>
+          <nav class="box-links" aria-label="The guide in three steps">
+            <a href="before.html">1 · Before the meal</a>
+            <a href="at-the-table.html">2 · At the table</a>
+            <a href="conversation.html">3 · Conversation</a>
+          </nav>
+        </div>
       </div>
     </section>
 
-    <section class="section section--band" aria-labelledby="why">
-      <div class="wrap split">
-        <div>
-          <h2 id="why">Why does a meal matter?</h2>
-        </div>
-        <div class="prose stack">
-          <p>An employer who takes you to lunch is not testing whether you know your salad fork from your dinner fork. They are watching how you treat people, how calm you are under mild pressure, and whether you can hold a conversation while eating.</p>
-          <p>One etiquette writer puts it this way: how you carry yourself at a meal is a small preview of how you carry yourself at work. The good news is that the rules are few, and you can learn them in an afternoon.</p>
+    <section class="journey" aria-labelledby="journey-title">
+      <div class="journey-head">
+        <img class="cloche" src="assets/img/cloche.svg" alt="" width="140" height="100" data-fly>
+        <img class="cloud cloud--a" src="assets/img/cloud.svg" alt="" width="60" height="36">
+        <img class="cloud cloud--b" src="assets/img/cloud.svg" alt="" width="60" height="36">
+        <h2 id="journey-title" class="stretch" data-stretch><span>From campus</span> <span class="w2">to the table</span></h2>
+      </div>
+      <nav class="journey-tabs" aria-label="Jump to a step">
+        <a href="before.html">Before the meal</a>
+        <a href="at-the-table.html">At the table</a>
+      </nav>
+      <div class="journey-photo">
+        <div class="rail" aria-hidden="true"><i></i><span>B · M · W</span></div>
+        <figure class="ph " data-file="banner-wide.jpg" data-size="2400×1200 px"><img src="assets/img/photos/banner-wide.jpg" alt="A busy restaurant dining room with people talking over lunch." width="2400" height="1200" loading="lazy" decoding="async" data-parallax="6"></figure>
+      </div>
+    </section>
+
+    <section class="band-red" aria-label="Why it matters">
+      <div class="wrap">
+        <p class="big reveal">An employer who takes you to lunch isn't testing your salad fork. They're watching how you treat people, how calm you stay, and whether you can talk while you eat.</p>
+        <p class="deco reveal" aria-hidden="true" style="--i:2">Good manners,<br>good opportunities.</p>
+      </div>
+    </section>
+
+    <section class="sunburst assemble" aria-labelledby="why">
+      <div class="wrap">
+        <h2 id="why" data-assemble>Manners that open doors</h2>
+        <div class="prose stack reveal">
+          <p>How you carry yourself at a meal is a small preview of how you carry yourself at work. The good news: the rules are few, and you can learn them in an afternoon.</p>
           <p class="sources-note">Sources: <a href="references.html#ref-4">The US at Work (Kaye)</a>.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="path">
-      <div class="wrap">
-        <h2 id="path">Follow the meal from start to finish</h2>
-        <div class="card-grid">
-          <a class="card" href="before.html">
-            <span class="num" aria-hidden="true">1</span>
-            <h3>Before the meal</h3>
-            <p>Research your host, pick or accept the restaurant, and plan your arrival.</p>
-            <span class="more">Read the prep guide &rarr;</span>
-          </a>
-          <a class="card" href="at-the-table.html">
-            <span class="num" aria-hidden="true">2</span>
-            <h3>At the table</h3>
-            <p>Decode the place setting, handle your napkin, order wisely, and eat tidily.</p>
-            <span class="more">See the table diagram &rarr;</span>
-          </a>
-          <a class="card" href="conversation.html">
-            <span class="num" aria-hidden="true">3</span>
-            <h3>Conversation &amp; follow-up</h3>
-            <p>Make small talk, know when to talk business, and say thanks afterward.</p>
-            <span class="more">Learn the flow &rarr;</span>
-          </a>
+        <div class="btn-row reveal">
+          <a class="btn" href="before.html">Start the guide</a>
+          <a class="link-strong" href="#watch">Watch the video</a>
         </div>
       </div>
     </section>
 
-    <section class="section section--band" aria-labelledby="five">
+    <section class="feature" aria-labelledby="quiz-promo">
+      <figure class="ph " data-file="feature-quiz.jpg" data-size="2400×1400 px"><img src="assets/img/photos/feature-quiz.jpg" alt="A waiter serving plates to two guests at a restaurant table." width="2400" height="1400" loading="lazy" decoding="async" data-parallax="5"></figure>
+      <div class="feature-card reveal">
+        <p class="eyebrow" style="color: var(--yellow)">Self-check quiz</p>
+        <h2 id="quiz-promo">Ten questions. Instant feedback.</h2>
+        <p>Find out how ready you are for your next business meal. Every answer comes with a short explanation, and nothing is saved or sent anywhere.</p>
+        <p class="deco" aria-hidden="true">Ready for the table?</p>
+        <a class="btn btn--yellow" href="quiz.html">Take the quiz</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="five">
       <div class="wrap">
-        <h2 id="five">If you remember only five things</h2>
-        <ol class="rules">
-          <li><div><strong>Arrive early and prepared.</strong><span>Look up the person you are meeting and get there before they do.</span></div></li>
-          <li><div><strong>Silence your phone.</strong><span>Put it away before you sit. Your attention is the best compliment.</span></div></li>
-          <li><div><strong>Follow your host's lead.</strong><span>On what to order, when to start, how fast to eat, and when to talk business.</span></div></li>
-          <li><div><strong>Eat small and stay tidy.</strong><span>Small bites, outside-in utensils, and kindness to the people serving you.</span></div></li>
-          <li><div><strong>Say thank you, then follow through.</strong><span>Send a short note and do what you promised during the meal.</span></div></li>
-        </ol>
+        <div class="menu-grid">
+          <div class="menu-card menu-card--white reveal">
+            <h2 id="five">If you remember only five things</h2>
+            <p class="deco" aria-hidden="true">Five rules<br>for any<br>business meal</p>
+          </div>
+          <article class="menu-card menu-card--yellow reveal" style="--i:1">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Ten minutes early is on time.</p>
+            <h3>Arrive early</h3>
+            <div class="tile"><figure class="ph ph--cut" data-file="rule-1-arrive.png" data-size="1000×1000 px"><img src="assets/img/photos/rule-1-arrive.png" alt="A wristwatch." width="1000" height="1000" loading="lazy" decoding="async"></figure></div>
+            <p class="desc">Look up the person you are meeting and get there before they do.</p>
+          </article>
+          <article class="menu-card menu-card--yellow reveal" style="--i:2">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Face down, out of sight.</p>
+            <h3>Silence your phone</h3>
+            <div class="tile"><figure class="ph ph--cut" data-file="rule-2-phone.png" data-size="1000×1000 px"><img src="assets/img/photos/rule-2-phone.png" alt="A phone lying face down." width="1000" height="1000" loading="lazy" decoding="async"></figure></div>
+            <p class="desc">Put it away before you sit. Your attention is the best compliment.</p>
+          </article>
+          <article class="menu-card menu-card--green reveal" style="--i:0">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Let them set the pace.</p>
+            <h3>Follow your host</h3>
+            <div class="tile"><figure class="ph ph--cut" data-file="rule-3-host.png" data-size="1000×1000 px"><img src="assets/img/photos/rule-3-host.png" alt="An open restaurant menu." width="1000" height="1000" loading="lazy" decoding="async"></figure></div>
+            <p class="desc">On what to order, when to start, how fast to eat, and when to talk business.</p>
+          </article>
+          <div class="menu-card menu-card--white reveal" style="--i:1">
+            <h3>Your table manners are a preview of how you work</h3>
+            <p class="deco" aria-hidden="true">How you eat<br>shows how<br>you work.</p>
+          </div>
+          <article class="menu-card menu-card--green reveal" style="--i:2">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Chew, then chat.</p>
+            <h3>Small bites, tidy plate</h3>
+            <div class="tile"><figure class="ph ph--cut" data-file="rule-4-bites.png" data-size="1000×1000 px"><img src="assets/img/photos/rule-4-bites.png" alt="A plate with a fork and knife." width="1000" height="1000" loading="lazy" decoding="async"></figure></div>
+            <p class="desc">Small bites, outside-in utensils, and kindness to the people serving you.</p>
+          </article>
+          <article class="menu-card menu-card--red reveal" style="--i:0">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Within 24 hours.</p>
+            <h3>Say thank you</h3>
+            <div class="tile"><figure class="ph ph--cut" data-file="rule-5-thanks.png" data-size="1000×1000 px"><img src="assets/img/photos/rule-5-thanks.png" alt="A thank-you card in an envelope." width="1000" height="1000" loading="lazy" decoding="async"></figure></div>
+            <p class="desc">Send a short note, then do what you promised during the meal.</p>
+          </article>
+          <article class="menu-card menu-card--red reveal" style="--i:1">
+            <img class="badge" src="assets/img/badge.svg" alt="" width="52" height="52">
+            <p class="deco" aria-hidden="true">Bread, meal, water</p>
+            <h3>Bonus: B·M·W</h3>
+            <div class="tile" aria-hidden="true"><span class="bmw">B M W</span></div>
+            <p class="desc">Bread on the left, meal in the middle, water on the right. Never take your neighbor's roll again.</p>
+          </article>
+          <div class="menu-card menu-card--white reveal" style="--i:2">
+            <h3>Ready to practice?</h3>
+            <p>See every fork, glass and plate explained on the <a href="at-the-table.html">place-setting diagram</a>.</p>
+            <p class="deco" aria-hidden="true">Practice once<br>at home.</p>
+          </div>
+        </div>
         <p class="sources-note">Sources: <a href="references.html#ref-1">Business Management Daily</a>, <a href="references.html#ref-2">NBC News (Dizik)</a>, <a href="references.html#ref-4">The US at Work (Kaye)</a>.</p>
+        <div class="btn-row" style="justify-content:center"><a class="btn" href="before.html">Read the full guide</a></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="steps-title">
+      <div class="wrap">
+        <h2 id="steps-title" class="giant-word reveal"><span aria-hidden="true">H</span><span class="seal" aria-hidden="true"><svg viewBox="0 0 200 200">
+            <defs><path id="seal-path" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+            <circle cx="100" cy="100" r="100" fill="#d4110b"/>
+            <g class="ring"><text font-family="Poppins, sans-serif" font-weight="700" font-size="17" fill="#fff4df"><textPath href="#seal-path" textLength="486" lengthAdjust="spacing">BEFORE · AT THE TABLE · TALK · THANKS ·</textPath></text></g>
+            <circle cx="100" cy="100" r="56" fill="#fff4df"/>
+            <g fill="#d4110b"><rect x="76" y="62" width="6" height="76" rx="3"/><rect x="68" y="62" width="4" height="26" rx="2"/><rect x="86" y="62" width="4" height="26" rx="2"/><path d="M70 86h18v8H70z"/><path d="M118 62c10 6 12 22 10 38h-8v38h-6V62z"/></g>
+          </svg></span><span aria-hidden="true">W&nbsp;TO</span><span class="visually-hidden">How to: follow the meal from start to finish</span></h2>
+        <p class="giant-sub">Follow the meal from start to finish</p>
+        <div class="step-cards">
+          <a class="step-card reveal" href="before.html" style="--i:0">
+            <figure class="ph " data-file="step-before.png" data-size="1000×1000 px" style="--ph-bg: var(--yellow)"><img src="assets/img/photos/step-before.png" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
+            <div class="meta"><h3>1. Before the meal</h3><p>Research your host, pick or accept the restaurant, and plan your arrival.</p></div>
+            <span class="go">Read the prep guide →</span>
+          </a>
+          <a class="step-card reveal" href="at-the-table.html" style="--i:1">
+            <figure class="ph " data-file="step-table.png" data-size="1000×1000 px" style="--ph-bg: var(--green)"><img src="assets/img/photos/step-table.png" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
+            <div class="meta"><h3>2. At the table</h3><p>Decode the place setting, handle your napkin, order wisely, and eat tidily.</p></div>
+            <span class="go">See the table diagram →</span>
+          </a>
+          <a class="step-card reveal" href="conversation.html" style="--i:2">
+            <figure class="ph " data-file="step-talk.png" data-size="1000×1000 px" style="--ph-bg: var(--blue)"><img src="assets/img/photos/step-talk.png" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
+            <div class="meta"><h3>3. Conversation</h3><p>Make small talk, know when to talk business, and say thanks afterward.</p></div>
+            <span class="go">Learn the flow →</span>
+          </a>
+        </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="watch">
       <div class="wrap split split--wide">
-        <div>
+        <div class="reveal">
           <h2 id="watch">Watch: dining during a job interview</h2>
-          <figure class="plain">
-            <div class="video-frame">
-              <iframe src="https://www.youtube-nocookie.com/embed/9KtuuLndWeg"
-                      title="Job interview dining etiquette by etiquette expert Diane Gottsman"
-                      loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
-                      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-                      allowfullscreen></iframe>
-            </div>
-            <figcaption>Etiquette expert Diane Gottsman on dining when a meal is part of the interview.
-              <a href="https://www.youtube.com/watch?v=9KtuuLndWeg" target="_blank" rel="noopener noreferrer" class="ext">Watch on YouTube<span class="visually-hidden"> (opens in a new tab)</span></a>.
-              See <a href="references.html#ref-6">source 6</a>.</figcaption>
-          </figure>
+          <div class="video-box">
+            <figure class="plain">
+              <div class="video-frame">
+                <iframe src="https://www.youtube-nocookie.com/embed/9KtuuLndWeg"
+                        title="Job interview dining etiquette by etiquette expert Diane Gottsman"
+                        loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                        allowfullscreen></iframe>
+              </div>
+              <figcaption>Etiquette expert Diane Gottsman on dining when a meal is part of the interview.
+                <a href="https://www.youtube.com/watch?v=9KtuuLndWeg" target="_blank" rel="noopener noreferrer" class="ext">Watch on YouTube<span class="visually-hidden"> (opens in a new tab)</span></a>.
+                See <a href="references.html#ref-6">source 6</a>.</figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="stack">
+        <div class="panel-blue stack reveal" style="--i:1">
           <h2>Take it further</h2>
           <p>Ready to practice? Take the ten-question <a href="quiz.html">self-check quiz</a>, then tell us what you learned in the <a href="survey.html">survey</a>.</p>
           <p>Looking for real events? Check <a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a> for workshops and employer events, and visit the <a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona homepage<span class="visually-hidden"> (opens in a new tab)</span></a> for campus news.</p>
+          <p class="deco" aria-hidden="true" style="color: var(--yellow)">Practice makes perfect.</p>
         </div>
       </div>
     </section>
 
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span></div></div>
+
+    <section class="collage" aria-label="Photo collage">
+      <div class="col-word" aria-hidden="true"><span data-vertical="up">Table</span></div>
+      <figure class="ph " data-file="collage-table.jpg" data-size="1200×1500 px"><img src="assets/img/photos/collage-table.jpg" alt="A table seen from above with several shared dishes, glasses and cutlery." width="1200" height="1500" loading="lazy" decoding="async" data-parallax="4"></figure>
+      <div class="col-word col-word--right" aria-hidden="true"><span data-vertical="down">Ready</span></div>
+    </section>
+    <nav class="socials" aria-label="More on this site">
+      <svg viewBox="0 0 40 16" aria-hidden="true"><path d="M2 8h26M28 3l9 5-9 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <a href="quiz.html">Quiz</a>
+      <a href="news.html">News</a>
+      <a href="survey.html">Survey</a>
+      <svg viewBox="0 0 40 16" aria-hidden="true"><path d="M38 8H12M12 3L3 8l9 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </nav>
+
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand">Table Ready</p>
-        <p>A beginner's guide to business dining etiquette for UA students.</p>
-        <p class="fine">Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+    <section class="sunburst footer-sun" aria-label="About this site">
+      <div class="wrap">
+        <p class="mega reveal" aria-hidden="true">Table<br>Ready</p>
+        <div class="btn-row">
+          <a class="btn-outline" href="before.html">Start the guide</a>
+          <a class="btn-outline" href="quiz.html">Take the quiz</a>
+        </div>
+        <div class="footer-info">
+          <p><strong>Table Ready:</strong> a beginner's guide to business dining etiquette for UA students.</p>
+          <p><strong>Elsewhere:</strong> <a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+          <p>Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+        </div>
       </div>
-      <div>
-        <h2>The guide</h2>
-        <ul>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html">Conversation &amp; follow-up</a></li>
-          <li><a href="quiz.html">Self-check quiz</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Elsewhere</h2>
-        <ul>
-          <li><a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="survey.html">Survey</a> &middot; <a href="references.html">Sources</a></li>
-        </ul>
-      </div>
-    </div>
+    </section>
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="before.html">Before the meal</a></li>
+        <li><a href="at-the-table.html">At the table</a></li>
+        <li><a href="conversation.html">Conversation</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="references.html">Sources</a></li>
+      </ul>
+    </nav>
+    <div class="footer-base"><p>Table Ready · HW4 · Plain HTML, CSS and JavaScript</p></div>
   </footer>
   <script src="assets/js/nav.js" defer></script>
-
+  <script src="assets/js/fx.js" defer></script>
 </body>
 </html>

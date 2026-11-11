@@ -4,50 +4,64 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Conversation and follow-up – Table Ready</title>
-  <meta name="description" content="How to make small talk, when to bring up business, how to handle drinks and the bill, and how to follow up after a business meal.">
-  <meta name="theme-color" content="#faf5ea">
+  <meta name="description" content="Small talk, drinks, the bill, and the thank-you note: how to handle the conversation and follow-up of a business meal.">
+  <meta name="theme-color" content="#fff4df">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>(function(d){d.classList.add("js");try{if(!sessionStorage.getItem("tr-loaded")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)d.classList.add("show-loader")}catch(e){}})(document.documentElement);</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Public+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="loader" aria-hidden="true"><span class="brand">Table <span>Ready</span></span></div>
   <header class="site-header">
     <div class="wrap bar">
       <a class="brand" href="index.html">Table <span>Ready</span></a>
-      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav">
-        <span class="nav-toggle-label">Menu</span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Main">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html" aria-current="page">Conversation</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="survey.html">Survey</a></li>
-          <li><a href="references.html">Sources</a></li>
-        </ul>
-      </nav>
+      <div class="header-cta">
+        <a class="btn-outline btn--sm" href="before.html">Start the guide</a>
+        <a class="btn-outline btn--sm" href="quiz.html">Take the quiz</a>
+      </div>
+      <div class="header-right">
+        <a class="btn btn--sm" href="survey.html">Survey</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="bars" aria-hidden="true"></span><span class="nav-toggle-label">Menu</span>
+        </button>
+      </div>
     </div>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+          <li><a href="index.html"><span>Home</span><small aria-hidden="true">Start here</small></a></li>
+          <li><a href="before.html"><span>Before the meal</span><small aria-hidden="true">Prep &amp; arrival</small></a></li>
+          <li><a href="at-the-table.html"><span>At the table</span><small aria-hidden="true">Place settings</small></a></li>
+          <li><a href="conversation.html" aria-current="page"><span>Conversation</span><small aria-hidden="true">Small talk &amp; the bill</small></a></li>
+          <li><a href="quiz.html"><span>Quiz</span><small aria-hidden="true">Test yourself</small></a></li>
+          <li><a href="news.html"><span>News</span><small aria-hidden="true">Latest tips</small></a></li>
+          <li><a href="survey.html"><span>Survey</span><small aria-hidden="true">Tell us</small></a></li>
+          <li><a href="references.html"><span>Sources</span><small aria-hidden="true">What we read</small></a></li>
+      </ul>
+    </nav>
   </header>
 
   <main id="main" tabindex="-1">
 
-    <header class="page-head">
+    <header class="poster-head poster-head--blue">
       <div class="wrap">
-        <p class="eyebrow">Step 3</p>
-        <h1>Conversation and follow-up</h1>
-        <p class="lede">The food is the backdrop. The real goal of the meal is a good conversation and a relationship that continues afterward.</p>
+        <div>
+          <p class="eyebrow">Step 3</p>
+          <h1>Conversation &amp; follow-up</h1>
+          <p class="lede">The food is the backdrop. The real goal of the meal is a good conversation and a relationship that continues afterward.</p>
+          <p class="deco" aria-hidden="true">The food is the excuse; the conversation is the point.</p>
+        </div>
+        <figure class="ph reveal-clip" data-file="head-conversation.jpg" data-size="1600×1000 px"><img src="assets/img/photos/head-conversation.jpg" alt="Two people talking and smiling over dinner." width="1600" height="1000" fetchpriority="high" decoding="async"></figure>
       </div>
     </header>
 
     <section class="section">
       <div class="wrap topics">
-        <article class="topic">
+        <article class="topic reveal" style="--i:0">
+          <span class="num" aria-hidden="true">1</span>
           <h2>Start with small talk</h2>
           <div class="prose stack">
             <p>Dinner is a social occasion, so ease in with light topics: travel, food, movies, sports, or what brought each of you to your field. Ask open questions and listen to the answers.</p>
@@ -56,7 +70,8 @@
           </div>
         </article>
 
-        <article class="topic">
+        <article class="topic reveal" style="--i:1">
+          <span class="num" aria-hidden="true">2</span>
           <h2>Be easy to talk to</h2>
           <div class="prose stack">
             <p>Sit up straight, keep your phone away, and finish chewing before you answer. If you are asked something while your mouth is full, a small nod buys you a moment.</p>
@@ -65,7 +80,8 @@
           </div>
         </article>
 
-        <article class="topic">
+        <article class="topic reveal" style="--i:0">
+          <span class="num" aria-hidden="true">3</span>
           <h2>Drinks</h2>
           <div class="prose stack">
             <p>Let your host set the tone. If they order wine and you are of age and want some, one glass is plenty. If you are under 21, or simply do not drink, water, soda, or iced tea is completely fine and no one will mind.</p>
@@ -73,7 +89,8 @@
           </div>
         </article>
 
-        <article class="topic">
+        <article class="topic reveal" style="--i:1">
+          <span class="num" aria-hidden="true">4</span>
           <h2>The bill</h2>
           <div class="prose stack">
             <p>The person who invited you normally pays, and a considerate host often settles up quietly so no one has to look at a check. As a guest, do not grab the bill or ask the total. A sincere thank-you is the right reply.</p>
@@ -82,7 +99,8 @@
           </div>
         </article>
 
-        <article class="topic">
+        <article class="topic reveal" style="--i:0">
+          <span class="num" aria-hidden="true">5</span>
           <h2>Follow up</h2>
           <div class="prose stack">
             <p>Within a day or two, send a short thank-you by email or on paper. Mention something specific from the conversation, such as an idea you liked or advice you received.</p>
@@ -93,19 +111,19 @@
       </div>
     </section>
 
-    <section class="section section--band" aria-labelledby="starters">
+    <section class="band band--yellow" aria-labelledby="starters">
       <div class="wrap">
-        <h2 id="starters">Conversation starters you can borrow</h2>
-        <ul class="checklist prose">
-          <li>"How did you get started in this field?"</li>
-          <li>"What is a project you are excited about right now?"</li>
-          <li>"Have you traveled anywhere interesting recently?"</li>
-          <li>"What do you wish you had known when you were a student?"</li>
-          <li>"Is there anything here you would recommend?"</li>
+        <h2 id="starters" class="reveal">Conversation starters you can borrow</h2>
+        <ul class="checklist reveal">
+          <li>“How did you get started in this field?”</li>
+          <li>“What is a project you are excited about right now?”</li>
+          <li>“Have you traveled anywhere interesting recently?”</li>
+          <li>“What do you wish you had known when you were a student?”</li>
+          <li>“Is there anything here you would recommend?”</li>
         </ul>
         <div class="btn-row">
-          <a class="btn" href="quiz.html">Take the quiz</a>
-          <a class="btn btn--ghost" href="survey.html">Tell us what you learned</a>
+          <a class="btn btn--blue" href="quiz.html">Take the quiz</a>
+          <a class="btn-outline" href="survey.html" style="color: var(--blue); border-color: var(--blue)">Tell us what you learned</a>
         </div>
       </div>
     </section>
@@ -113,32 +131,36 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <p class="brand">Table Ready</p>
-        <p>A beginner's guide to business dining etiquette for UA students.</p>
-        <p class="fine">Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span><span>Arrive early —</span><span>Silence your phone —</span><span>Follow your host —</span><span>Small bites —</span><span>Say thank you —</span><span>Ten minutes early is on time. —</span></div></div>
+    <section class="sunburst footer-sun" aria-label="About this site">
+      <div class="wrap">
+        <p class="mega reveal" aria-hidden="true">Table<br>Ready</p>
+        <div class="btn-row">
+          <a class="btn-outline" href="before.html">Start the guide</a>
+          <a class="btn-outline" href="quiz.html">Take the quiz</a>
+        </div>
+        <div class="footer-info">
+          <p><strong>Table Ready:</strong> a beginner's guide to business dining etiquette for UA students.</p>
+          <p><strong>Elsewhere:</strong> <a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+          <p>Created by Henry Gallegos for HW4: Business Dining Etiquette. This is a student project and not an official University of Arizona website.</p>
+        </div>
       </div>
-      <div>
-        <h2>The guide</h2>
-        <ul>
-          <li><a href="before.html">Before the meal</a></li>
-          <li><a href="at-the-table.html">At the table</a></li>
-          <li><a href="conversation.html">Conversation &amp; follow-up</a></li>
-          <li><a href="quiz.html">Self-check quiz</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Elsewhere</h2>
-        <ul>
-          <li><a href="https://www.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">University of Arizona<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="https://career.arizona.edu" target="_blank" rel="noopener noreferrer" class="ext">UA Career Services<span class="visually-hidden"> (opens in a new tab)</span></a></li>
-          <li><a href="survey.html">Survey</a> &middot; <a href="references.html">Sources</a></li>
-        </ul>
-      </div>
-    </div>
+    </section>
+    <nav class="footer-nav" aria-label="Footer">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="before.html">Before the meal</a></li>
+        <li><a href="at-the-table.html">At the table</a></li>
+        <li><a href="conversation.html">Conversation</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="references.html">Sources</a></li>
+      </ul>
+    </nav>
+    <div class="footer-base"><p>Table Ready · HW4 · Plain HTML, CSS and JavaScript</p></div>
   </footer>
   <script src="assets/js/nav.js" defer></script>
-
+  <script src="assets/js/fx.js" defer></script>
 </body>
 </html>
